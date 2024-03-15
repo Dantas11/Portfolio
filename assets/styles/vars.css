@@ -9,3 +9,7 @@
     --light-grey-color: #6f6866;
     --white-color: #eeeeee;
   }
+
+  body {
+    background-color: var(--primary-color);
+  }
