@@ -12,4 +12,6 @@
 
   body {
     background-color: var(--primary-color);
+    min-width: fit-content;
+    height: 100vh;
   }
