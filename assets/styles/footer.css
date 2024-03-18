@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--dark-color);
+    height: 7rem;
+    align-items: center;
+    min-width: fit-content;
+}
+
+footer h1 {
+    color: var(--primary-color);
+}
+
+footer #footer__menu {
+    display: flex;
+    gap: 3rem;
+}
+
+footer #footer__menu .footer__menu__menu-item {
+    display: flex;
+    list-style: none;
+    color: var(--light-grey-color);
+}
+
+footer #footer__menu .footer__menu__menu-item a {
+    text-decoration: none;
+    color: var(--light-grey-color);
+}
