@@ -26,3 +26,25 @@
 .skills__content .skills__menu .skills__menu__item {
    
 }
+
+@media (max-width:730px) {
+    #skills {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        gap: 3rem;
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media (max-width:436px) {
+    #skills {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        gap: 3rem;
+        width: 70%;
+        margin: auto;
+    }
+}

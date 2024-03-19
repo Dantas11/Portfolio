@@ -27,3 +27,17 @@ color: var(--dark-color);
     border: solid var(--light-grey-color);
     border-radius: 5rem;
 }
+
+@media (max-width:730px) {
+    #about img {
+        display: none;
+    }
+    .about__text {
+        align-items: center;
+    }
+
+    .about__text p {
+        text-align: center;
+    }
+}
+
