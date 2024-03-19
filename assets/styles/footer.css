@@ -20,6 +20,7 @@ footer #footer__menu .footer__menu__menu-item {
     display: flex;
     list-style: none;
     color: var(--light-grey-color);
+    margin-top: 1rem;
 }
 
 footer #footer__menu .footer__menu__menu-item a {
