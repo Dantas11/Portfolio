@@ -27,3 +27,27 @@ footer #footer__menu .footer__menu__menu-item a {
     text-decoration: none;
     color: var(--light-grey-color);
 }
+
+@media (max-width:860px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:730px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+
+        height: 20rem;
+    }
+    footer #footer__menu {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    footer #footer__menu .footer__menu__menu-item a p {
+
+    }
+}

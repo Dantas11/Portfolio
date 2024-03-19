@@ -32,3 +32,10 @@ header #header__menu .header__menu__menu-item a {
     color: var(--white-color);
     text-decoration: none;
 }
+
+@media (max-width:860px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+}
