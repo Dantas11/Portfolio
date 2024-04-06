@@ -54,5 +54,6 @@ N/A
 
 For any inquiries or support, please contact us at:
 
+[LinkedIn](https://www.linkedin.com/in/dantas-thiago/)
 Email: thiagoo.dantas11@gmail.com
 Phone: +61 450 732 811
