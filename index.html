@@ -8,30 +8,30 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles/vars.css">
     <link rel="stylesheet" href="assets/styles/header.css">
-    <link rel="stylesheet" href="assets/styles/about-content.css">
-    <link rel="stylesheet" href="assets/styles/skills-content.css">
-    <link rel="stylesheet" href="assets/styles/projects-content.css">
+    <link rel="stylesheet" href="assets/styles/about.css">
+    <link rel="stylesheet" href="assets/styles/skills.css">
+    <link rel="stylesheet" href="assets/styles/projects.css">
     <link rel="stylesheet" href="assets/styles/footer.css">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <h1>Portfolio</h1>
-        <ul id="header__menu">
-            <li class="header__menu__menu-item">
+    <header class="header">
+        <h1 class="header__title">Web-Developer</h1>
+        <ul class="header__menu">
+            <li class="header__menu-item">
                 <a href="index.html">Home</a>
             </li>
-            <li class="header__menu__menu-item">
+            <li class="header__menu-item">
                 <a href="#about">About</a>
             </li>
-            <li class="header__menu__menu-item">
+            <li class="header__menu-item">
                 <a href="#skills">Skills</a>
             </li>
-            <li class="header__menu__menu-item">
+            <li class="header__menu-item">
                 <a href="#projects">Projects</a>
             </li>
-            <li class="header__menu__menu-item">
+            <li class="header__menu-item">
                 <a href="#contact">Contact</a>
             </li>
         </ul>
@@ -39,8 +39,9 @@
     <main>
         <section id="about">
             <div class="about__text">
-                <h1>Thiago Dantas</h1>
-                <p>I am a motivated and dynamic professional with a degree in Web Developer looking for an opportunity
+                <h1 class="about__title">Thiago Dantas</h1>
+                <p class="about__description">I am a motivated and dynamic professional with a degree in Web Developer
+                    looking for an opportunity
                     to connect my knowledge to new challenges, working with a team of developers to create new websites
                     and applications. With a high learning capacity, I can take direction from senior developers and
                     assist with all aspects of website and application design. I possess excellent website design skills
@@ -48,49 +49,48 @@
                     technical environment and meet deadlines. I am an analytical professional who can understand and
                     adjust work procedures and seek maximum efficiency in the long term.</p>
             </div>
-            <img src="assets/images/thiago-img.PNG" alt="Thiago Photo">
+            <img class="about__img" src="assets/images/thiago-img.PNG" alt="Thiago Photo">
         </section>
         <section id="skills">
             <div class="skills__content">
-                <h3><i class="fa-solid fa-code"></i> Front-End Skills</h3>
-                <ul class="skills__menu">
-                    <li class="skills__menu__item">
+                <h3 class="skills__title"><i class="fa-solid fa-code"></i> Front-End Skills</h3>
+                <ul class="skills__list">
+                    <li class="skills__list-item">
                         <i class="fa-brands fa-html5"></i> HTML 5
                     </li>
-                    <li class="skills__menu__item">
+                    <li class="skills__list-item">
                         <i class="fa-brands fa-css3-alt"></i> CSS
                     </li>
-                    <li class="skills__menu__item">
+                    <li class="skills__list-item">
                         <i class="fa-brands fa-js"></i> JS
                     </li>
-                    <li class="skills__menu__item">
+                    <li class="skills__list-item">
                         <i class="fa-brands fa-react"></i>React
                     </li>
-                    <li class="skills__menu__item">
+                    <li class="skills__list-item">
                         <i class="fa-brands fa-bootstrap"></i>Bootstrap
                     </li>
-                    <li class="skills__menu__item">Jquery</li>
                 </ul>
             </div>
             <div class="skills__content">
-                <h3><i class="fa-solid fa-code"></i> Back-End Skills</h3>
-                <ul class="skills__menu">
-                    <li class="skills__menu__item">
+                <h3 class="skills__title"><i class="fa-solid fa-code"></i> Back-End Skills</h3>
+                <ul class="skills__list">
+                    <li class="skills__list-item">
                         Node.js
                     </li>
-                    <li class="skills__menu__item">
+                    <li class="skills__list-item">
                         OOP
                     </li>
-                    <li class="skills__menu__item">
+                    <li class="skills__list-item">
                         Express.js
                     </li>
-                    <li class="skills__menu__item">
+                    <li class="skills__list-item">
                         SQL
                     </li>
-                    <li class="skills__menu__item">
+                    <li class="skills__list-item">
                         ORM
                     </li>
-                    <li class="skills__menu__item">
+                    <li class="skills__list-item">
                         NoSQL
                     </li>
                 </ul>
@@ -104,7 +104,9 @@
                             <img src="assets/images/A2.png" class="card-img-top" alt="main-page-photo">
                             <div class="card-body">
                                 <h5 class="card-title">Pet-Adoption</h5>
-                                <p class="card-text">This project is a simple web page designed to showcase pets available for adoption. The page provides information about each pet with a brief description.</p>
+                                <p class="card-text">This project is a simple web page designed to showcase pets
+                                    available for adoption. The page provides information about each pet with a brief
+                                    description.</p>
                             </div>
                             <div class="card-footer">
                                 <a href="https://dantas11.github.io/Pet-Adoption/">Project Link</a>
@@ -156,25 +158,25 @@
             </div>
         </section>
     </main>
-    <footer id="contact">
-        <h1>Contact</h1>
-        <ul id="footer__menu">
-            <li class="footer__menu__menu-item">
+    <footer class="footer" id="contact">
+        <h1 class="footer__title">Contact</h1>
+        <ul class="footer__list">
+            <li class="footer__list-item">
                 <i class="fa-solid fa-phone"></i>
                 <p>0450 732 811</p>
             </li>
-            <li class="footer__menu__menu-item">
+            <li class="footer__list-item">
                 <i class="fa-regular fa-envelope"></i>
                 <p>thiagoo.dantas11@gmail.com</p>
             </li>
-            <li class="footer__menu__menu-item">
+            <li class="footer__list-item">
                 <a href="https://github.com/Dantas11">
                     <i class="fa-brands fa-github"></i>
                     <p>Github</p>
                 </a>
             </li>
-            <li class="footer__menu__menu-item">
-                <a href="https://www.linkedin.com/feed/">
+            <li class="footer__list-item">
+                <a href="https://www.linkedin.com/in/dantas-thiago/">
                     <i class="fa-brands fa-linkedin-in"></i>
                     <p>Linkedin</p>
                 </a>

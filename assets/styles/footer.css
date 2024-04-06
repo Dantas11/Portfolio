@@ -1,65 +1,65 @@
-footer {
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--dark-color);
+  height: 7rem;
+  align-items: center;
+  min-width: fit-content;
+}
+
+.footer__title {
+  color: var(--primary-color);
+}
+
+.footer__list {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.footer__list-item {
+  display: flex;
+  list-style: none;
+  color: var(--light-grey-color);
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.footer__list-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--light-grey-color);
+}
+
+.footer i {
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+}
+
+.footer p {
+  align-items: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 860px) {
+  .footer {
     display: flex;
-    justify-content: space-evenly;
-    background-color: var(--dark-color);
-    height: 7rem;
-    align-items: center;
-    min-width: fit-content;
+    flex-direction: column;
+    height: 12rem;
+  }
 }
 
-footer h1 {
-    color: var(--primary-color);
-}
-
-footer #footer__menu {
+@media (max-width: 730px) {
+  .footer {
     display: flex;
-    gap: 3rem;
-    align-items: center;
-}
-
-footer #footer__menu .footer__menu__menu-item {
+    flex-direction: column;
+    height: 25rem;
+  }
+  .footer__list {
     display: flex;
-    list-style: none;
-    color: var(--light-grey-color);
-    margin-top: 1rem;
-    align-items: center;
-}
-
-footer #footer__menu .footer__menu__menu-item a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: var(--light-grey-color);
-}
-
-footer i {
-    color: var(--primary-color);
-    margin-right: 0.5rem;
-}
-
-footer p {
-    align-items: center;
-    margin-top: 1rem;
-}
-
-@media (max-width:860px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-        height: 12rem;
-    }
-}
-
-@media (max-width:730px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-        height: 25rem;
-    }
-    footer #footer__menu {
-        display: flex;
-        flex-direction: column;
-        padding-left: 0;
-        gap: 0.1rem;
-    }
+    flex-direction: column;
+    padding-left: 0;
+    gap: 0.1rem;
+  }
 }

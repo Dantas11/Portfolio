@@ -1,0 +1,11 @@
+.container .card {
+  background-color: var(--dark-color);
+  color: var(--primary-color);
+  border: solid var(--dark-color);
+  border-radius: 0.5rem;
+  box-shadow: 6px 5px var(--light-grey-color);
+}
+
+#projects {
+  margin-bottom: 5rem;
+}
