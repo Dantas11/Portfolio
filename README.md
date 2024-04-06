@@ -48,7 +48,7 @@ N/A
 
 ## Test and Deploy
 
-[Website page](https://dantas11.github.io/Portfolio/)
+[Portfolio page](https://dantas11.github.io/Portfolio/)
 
 ## Contact
 
