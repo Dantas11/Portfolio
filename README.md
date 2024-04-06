@@ -20,6 +20,7 @@ This is a professional Portfolio project.
 
 - HTML
 - CSS
+- Bootstrap
 
 ## Installation
 
@@ -39,7 +40,7 @@ N/A
 
 ## Credits
 
-N/A
+Icons - [Font Awesome](https://fontawesome.com/)
 
 ## Future Technologies
 
