@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a professional Portfolio. 
+This is a professional Portfolio project.
 
 ## Features
 
@@ -12,9 +12,9 @@ This project is a professional Portfolio.
 
 ## SCREENSHOTS
 
-![Pet-Adoption-Page](https://github.com/Dantas11/Pet-Adoption/blob/main/assets/images/A2.png)
-![Pet-Adoption-Page](https://github.com/Dantas11/Pet-Adoption/blob/main/assets/images/A4.png)
-![Pet-Adoption-Page](https://github.com/Dantas11/Pet-Adoption/blob/main/assets/images/A3.png)
+![Pet-Adoption-Page]()
+![Pet-Adoption-Page]()
+![Pet-Adoption-Page]()
 
 ## Technologies Used
 
@@ -47,7 +47,7 @@ N/A
 
 ## Test and Deploy
 
-[Website page](https://dantas11.github.io/Pet-Adoption/)
+[Website page](https://dantas11.github.io/Portfolio/)
 
 ## Contact
 
