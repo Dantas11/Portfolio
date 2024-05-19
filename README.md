@@ -12,9 +12,8 @@ This is a professional Portfolio project.
 
 ## SCREENSHOTS
 
-![Pet-Adoption-Page]()
-![Pet-Adoption-Page]()
-![Pet-Adoption-Page]()
+![Pet-Adoption-Page](https://github.com/Dantas11/Portfolio/blob/main/assets/images/portfolio-1.png)
+![Pet-Adoption-Page](https://github.com/Dantas11/Portfolio/blob/main/assets/images/portfolio-2.png)
 
 ## Technologies Used
 
